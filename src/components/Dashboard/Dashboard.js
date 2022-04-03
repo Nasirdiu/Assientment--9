@@ -51,11 +51,10 @@ const Dashboard = () => {
     },
   ];
   return (
-    <div className="mt-5 container">
-      <div className="mt-5">
-        <h1 className="text-success ">BarChart:-</h1>
+    <div className="mt-5 m-lg-5 row">
+      <div className="mt-5 col-md-6">
         <h4 className="text-warning mb-5">investment VS Revenue.</h4>
-        <BarChart width={730} height={250} data={data}>
+        <BarChart width={500} height={250} data={data}>
           <CartesianGrid strokeDasharray="3 3" />
           <XAxis dataKey="month" />
           <YAxis />
@@ -65,11 +64,10 @@ const Dashboard = () => {
           <Bar dataKey="revenue" fill="#82ca9d" />
         </BarChart>
       </div>
-      <div className="mt-5 mb-5">
-        <h2 className="text-info">AreaChart:-</h2>
-        <h4 className="text-warning mb-5">investment VS Revenue.</h4>
+      <div className="mt-5 mb-5 col-md-6">
+        <h4 className="text-info mb-5">investment VS Revenue.</h4>
         <AreaChart
-          width={730}
+          width={500}
           height={250}
           data={data}
           margin={{ top: 10, right: 30, left: 0, bottom: 0 }}
