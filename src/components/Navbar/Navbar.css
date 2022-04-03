@@ -2,9 +2,12 @@
     text-decoration: none;
     margin: 10px;
     padding: 10px;
-   background-color: antiquewhite;
    border-radius: 15px;
+   
 }
 .nav{
-    background-color: black;
+    background-color: rgb(240, 235, 235);
+}
+.nav-head{
+    margin: auto;
 }
