@@ -1,9 +1,12 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import Bike from "../../Asstes/Bike.jpg";
+import useBike from "../../hooks/useBike";
+import Bikes from "../Bikes/Bikes";
 import "./Home.css";
 const Home = () => {
     const negative=useNavigate()
+    const [bikes]=useBike();
   return (
     <div>
       <div className="header">
@@ -21,6 +24,11 @@ const Home = () => {
       </div>
       <div className="mt-5 ">
         <h1>Coustomer Review</h1>
+      </div>
+      <div className="bike-container">
+        {
+          bikes.slice(0,3).map(bike=><Bikes key={bike.id} bike={bike}></Bikes>)
+        }
       </div>
       <div>
         <button onClick={()=>negative('/review')} className="btn btn-info mt-5 mb-5" >See All Review</button>

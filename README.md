@@ -4,7 +4,8 @@ Live sit Link :- [https://bike-suzuki-gixxer.netlify.app/blog](https://bike-suzu
 
 ## Project Review....
 
-Markup : _ Bullet list
-_ Nested bullet
-_ Sub-nested bullet etc
-_ Bullet list item 2
+<ul>
+    <li>Bike Review</li>
+    <li>Recharts Dashboard</li>
+    <li>Bike Is my Dream</li>
+</ul>
