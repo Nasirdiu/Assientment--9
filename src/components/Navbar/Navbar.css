@@ -6,6 +6,8 @@
    
 }
 .nav{
+    display: flex;
+    justify-content: center;
     background-color: rgb(240, 235, 235);
 }
 .nav-head{

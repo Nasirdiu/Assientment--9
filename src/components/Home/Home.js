@@ -11,7 +11,7 @@ const Home = () => {
     <div>
       <div className="header">
         <div className="header-left">
-          <h1 className="text-success">My Next Bike Suzuki Gixxer....</h1>
+          <h1>My Next Bike <span className="text-info">Suzuki Gixxer....</span></h1>
           <p>
             The 2022 Gixxer promises even more dynamic riding experience with
             advanced looks and features setting up its own standard.
@@ -23,7 +23,7 @@ const Home = () => {
         </div>
       </div>
       <div className="mt-5 ">
-        <h1>Coustomer Review</h1>
+        <h1 className="text-info">Coustomer Review :-</h1>
       </div>
       <div className="bike-container">
         {
