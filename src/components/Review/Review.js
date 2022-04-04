@@ -5,10 +5,13 @@ import './Review.css'
 const Review = () => {
   const [bikes, setBikes] = useBike();
   return (
-    <div className="review">
+    <div>
+      <h1 className="text-info">Coustomer All Review:</h1>
+      <div  className="review">
       {bikes.map((bike) => (
         <Bikes key={bike.id} bike={bike}></Bikes>
       ))}
+      </div>
     </div>
   );
 };
