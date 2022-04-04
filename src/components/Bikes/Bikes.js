@@ -3,7 +3,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faStar,faStarHalf} from '@fortawesome/free-solid-svg-icons';
 import './Bikes.css'
 const Bikes = (props) => {
-    console.log(props.bike);
     const {name,img,review,ratings}=props.bike;
     return (
         <div className='bikes'>
