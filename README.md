@@ -1,11 +1,12 @@
 # My Next Bike Suzuki Gixxer....
 
-Live sit Link :- [https://bike-suzuki-gixxer.netlify.app/blog](https://bike-suzuki-gixxer.netlify.app/blog).
+Live sit Link :- [https://bike-suzuki-gixxer.netlify.app/](https://bike-suzuki-gixxer.netlify.app/).
 
 ## Project Review....
 
 <ul>
     <li>Bike Review</li>
     <li>Recharts Dashboard</li>
-    <li>Bike Is my Dream</li>
+    <li>Use Hooks </li>
+    <li>ratting icon use react-fontawesome</li>
 </ul>
