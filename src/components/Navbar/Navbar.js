@@ -1,16 +1,17 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import CustomLink from "../CustomLink/CustomLink";
 import './Navbar.css'
 
 const Navbar = () => {
   return (
     <div className="nav-head">
       <nav className="nav">
-        <Link to="/home">Home</Link>
-        <Link to="/review">Review</Link>
-        <Link to="/dashboard">Dashboard</Link>
-        <Link to="/blog">Blog</Link>
-        <Link to="/About">About</Link>
+        <CustomLink to="/home">Home</CustomLink>
+        <CustomLink to="/review">Review</CustomLink>
+        <CustomLink to="/dashboard">Dashboard</CustomLink>
+        <CustomLink to="/blog">Blog</CustomLink>
+        <CustomLink to="/About">About</CustomLink>
       </nav>
     </div>
   );
