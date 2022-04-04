@@ -1,0 +1,10 @@
+.bikes{
+    border: 1px solid slategrey;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: antiquewhite;
+}
+.bikes img{
+    border-radius: 20px;
+}
